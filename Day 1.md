@@ -11,7 +11,7 @@ Contains syntax for Java Android
 #### Installation of Android Studio (preferred)
 You can choose any IDE of your own (Eclipse/Intellij), but you are on your own for this course
 
-<img src="android_studio_version.png" alt="Android Studio Version" title="Android Studio">
+<img src="/Day1Images/android_studio_version.png" alt="Android Studio Version" title="Android Studio">
 
 The latest android studio version is 4.0.1, but you can choose 3.5.3 or 3.6.3 if you prefer. It's pretty much the same.
 The new functionalities in 4.0.1 would not matter that much if you are still new to Android.
@@ -19,12 +19,12 @@ The new functionalities in 4.0.1 would not matter that much if you are still new
 Select 'Start a new Android Studio project' if you have no existing project or if you wish to 'Open an existing project
 Android Studio project', just select the 2nd option.
 
-<img src="project_template.png" alt="Project Template" title="Project Template">
+<img src="/Day1Images/create_project.png" alt="Create Project" title="Create Project">
 
 Select Empty Activity, please do not select other templates to avoid confusion (there are many pre-written codes and it
 is not meant for beginners)
 
-<img src="configure_project.png" alt="Configure Project" title="Configure Project">
+<img src="/Day1Images/configure_project.png" alt="Configure Project" title="Configure Project">
 
 Create Name, Package Name <br>
 By convention name is Capitalized 'MyFirstApp', package name is uri in reverse 'com.example.test',
@@ -51,10 +51,10 @@ to learn how to cook, but you don't know your knife well!
 Click finish
 
 ### 2. Basic Android Programming Knowledge
-<img src="landing_page.png" alt="Landing Page" title="Landing Page">
+<img src="/Day1Images/landing_page.png" alt="Landing Page" title="Landing Page">
 
 Before proceeding, please configure your emulator if you have not done so! <br>
-<img src="emulator_option.png" alt="Emulator Option" title="Emulator Option"> <br>
+<img src="/Day1Images/emulator_option.png" alt="Emulator Option" title="Emulator Option"> <br>
 Select Create Virtual Device > Any phone device of your choice (Next) > Download Q or lower API level to be safe (Next) > Next > Finish
 
 #### MainActivity
@@ -111,7 +111,8 @@ For those who coded Kivy before congratulations! You have gotten rid of lousy .k
 welcome to use the drag-n-drop ConstraintLayout. Beautiful isn't it?
 
 For those wondering where is the xml file, just Ctrl/Cmd-click ```R.layout.activity_main``` or you can select <br>
-<img src="activity_layout.png" alt="Activity Layout" title="Path to Activity Layout">
+<img src="/Day1Images/activity_layout.png" alt="Activity Layout" title="Path to Activity Layout">
+
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -133,8 +134,6 @@ For those wondering where is the xml file, just Ctrl/Cmd-click ```R.layout.activ
 </androidx.constraintlayout.widget.ConstraintLayout>
 ```
 
-<img src="activity_layout.png" alt="Activity Layout" title="Path to Activity Layout">
-
 If you dig into the layout palette, you will see various types of layouts:
 * ConstraintLayout - will be using this on the 1st day
 * LinearLayout - will be using this on 2nd day
@@ -155,8 +154,8 @@ there is really too much to write.
 
 ### Hello World App
 
-<img src="button_layout.png" alt="Button In Layout" title="Button In Layout"> <br>
-<img src="button_code.png" alt="Button Code" title="Button Code">
+<img src="/Day1Images/button_layout.png" alt="Button In Layout" title="Button In Layout"> <br>
+<img src="/Day1Images/button_code.png" alt="Button Code" title="Button Code">
 
 ```
     @Override
@@ -186,11 +185,11 @@ contract that you written for the button to elicit a response when you 'click' i
 ain't that simple as the codes underneath the hood is ridiculously difficult, and it has been abstracted away from us.
 Anyways, congratulation! You have created your first app.
 
-<img src="button_output.png" alt="Button Output" title="Button Output">
+<img src="/Day1Images/button_output.png" alt="Button Output" title="Button Output">
 
 ---
 
-####My First App
+#### My First App
 Please refer to the code package for the full codes, I will be explaining the code here.
 
 ```
@@ -221,6 +220,8 @@ In the next portion, I converted my int back to String and then set my result us
 
 Where did I create my button? Make a guess!
 
+<img src="/Day1Images/my_first_app_layout.png" alt="MyFirstApp Layout" title="MyFirstApp Layout">
+
 The answer is: XML layout
 ```
     <Button
@@ -238,6 +239,8 @@ So you can create the links to the method using xml, it's just preference, see w
 
 I used an OOP method to reduce code duplication, so I hope you guys understand what I did in java.
 
+<img src="/Day1Images/my_first_app_output.png" alt="MyFirstApp Output" title="MyFirstApp Output">
+
 That's All Folks!
 
 Some challenges that you guys might want to try:
@@ -245,4 +248,4 @@ Some challenges that you guys might want to try:
 * Creating a full calculator
 * Creating a survey app
 
-Hope you learned quite a bit from our 1st day.
+Hope you learned quite a bit from us.
